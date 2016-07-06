@@ -1,0 +1,44 @@
+body {
+    background-color: #74AFAD
+}
+
+#quote-box {
+    background-color: #ECECEA;
+    margin: auto;
+    margin-top: 5em;
+    max-width: 75%;
+    height: 30em;
+    border-radius: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    color: #D9853B;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0.5em;
+}
+
+#quote {
+    font-size: 2em;
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+#author {
+    font-size: 1.5em;
+    flex: 0 1 auto;
+}
+
+#button-box {
+    margin-top: 5em;
+    text-align: center;
+}
+
+#new-quote {
+    width: 135px;
+    height: 60px;
+    background: #ECECEA;
+}
